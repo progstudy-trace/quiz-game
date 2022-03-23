@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>鬼滅の刃クイズ　アンケート</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="responsives.css">
+  <link rel="stylesheet" href="anketo.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+  <!-- ヘッダー -->
+  <div id="header">
+    <h1 id="h1"><a href="index.html">鬼滅の刃クイズ</a></h1>
+    <p id="sub-title">アンケート</p>
+
+    <!-- 右上のメニューアイコン -->
+    <div id="open">
+      <i class="fas fa-bars"></i>
+      <span>メニュー</span>
+    </div>
+  </div>
+
+  <!-- オーバーレイ ナビゲーション -->
+  <div class="overlay">
+    <i class="fas fa-times" id="close"></i>
+    <nav>
+      <ul>
+        <li><a href="index.html">最初（さいしょ）～鼓の屋敷編(つづみのやしきへん)</a></li>
+        <li><a href="natagumo.html">那田蜘蛛山編（なたぐもやまへん）</a></li>
+        <li><a href="mugen.html">無限列車編（むげんれっしゃへん）</a></li>
+        <li><a href="yukaku-1.html">遊郭編（ゆうかくへん）1</a></li>
+        <li><a href="yukaku-2.html">遊郭編（ゆうかくへん）2</a></li>
+        <li><a href="anketo.html">感想(かんそう)かいてね</a></li>
+        <li><a href="ichiran.php">感想一覧(かんそういちらん)</a></li>
+        <li><a href="otoiawase.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <section id="ankeito" class="anketo-wrap">
+    <h2>アンケート(かんそうをかいてね)</h2>
+    <p id="anketo-subtext">※かいたものは、一覧（いちらん）でみれます。</p>
+
+    <form action="check.php" method="post">
+      <p class="form-txt">ニックネーム(あだな)をかいてください</p>
+      <input type="text" name="nickname" style="width:200px"><br>
+      <p class="form-txt">感想(かんそう)をかいてください</p>
+      <textarea name="kansou" cols="20" rows="6"></textarea>
+      <div class="submit-wrap">
+        <input class="submit-btn" type="submit" value="おくる">
+      </div>
+    </form>
+    
+    <p id="return"><a href="index.html">クイズいちらんに　もどる</a></p>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>

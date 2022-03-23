@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>鬼滅の刃クイズ　最初～鼓の屋敷編</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="responsives.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- ヘッダー -->
+    <div id="header">
+      <h1 id="h1"><a href="index.html">鬼滅の刃クイズ</a></h1>
+      <p id="sub-title">最初（さいしょ）～<br>　　鼓の屋敷編（つづみのやしきへん） 20問</p>
+
+      <!-- 右上のメニューアイコン -->
+      <div id="open">
+        <i class="fas fa-bars"></i>
+        <span>メニュー</span>
+      </div>
+    </div>
+
+    <!-- オーバーレイ ナビゲーション -->
+    <div class="overlay">
+      <i class="fas fa-times" id="close"></i>
+      <nav>
+        <ul>
+          <li><a href="first.html">最初（さいしょ）～鼓の屋敷編(つづみのやしきへん)</a></li>
+          <li><a href="natagumo.html">那田蜘蛛山編（なたぐもやまへん）</a></li>
+          <li><a href="mugen.html">無限列車編（むげんれっしゃへん）</a></li>
+          <li><a href="yukaku-1.html">遊郭編（ゆうかくへん）1</a></li>
+          <li><a href="yukaku-2.html">遊郭編（ゆうかくへん）2</a></li>
+          <li><a href="anketo.html">感想(かんそう)かいてね</a></li>
+          <li><a href="ichiran.php">感想一覧(かんそういちらん)</a></li>
+          <li><a href="otoiawase.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+    <!-- クイズ本文 -->
+    <p id="q-title">もんだい</p>
+    <p id="js-question">質問文</p>
+    <div class="flex">
+      <div class="box">選択肢</div>
+      <div class="box">選択肢</div>
+      <div class="box">選択肢</div>
+      <div class="box">選択肢</div>
+    </div>
+    <div class="hint">
+      <button id="hint-btn">ヒント</button>
+      <p id="hint-txt"></p>
+    </div>
+    <p id="correct-txt"></p>
+    <p id="return"><a href="index.html">クイズいちらんに　もどる</a></p>
+  </div>
+  <script src="first.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

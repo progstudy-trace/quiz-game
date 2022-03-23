@@ -1,0 +1,60 @@
+.anketo-wrap{
+  max-width:800px;
+  margin:20px auto 0 auto;
+}
+
+#ankeito h2{
+  text-align:center;
+  margin-bottom:5px;
+}
+
+#anketo-subtext{
+  font-size:13px;
+  margin:0;
+  text-align: center;
+}
+
+.form-txt{
+  font-weight:bold;
+  margin-top:30px;
+}
+
+#ankeito input{
+  font-size:14px;
+  padding:5px;
+}
+
+#ankeito textarea{
+  font-size:14px;
+  box-sizing: border-box;
+  width:100%;
+  padding:5px;
+}
+
+.submit-wrap{
+  text-align: center;
+}
+
+.submit-btn{
+  background:#da6b64;
+  color:#fff;
+  width:200px;
+  border-radius:20px;
+  border:none;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.anketo-body{
+  margin-bottom:20px;
+}
+
+.check-btn{
+  margin-top:20px;
+  margin-right:20px;
+}
+
+#bottom{
+  padding-bottom:30px;
+  padding-left:10px;
+}

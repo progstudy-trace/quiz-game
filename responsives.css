@@ -1,0 +1,85 @@
+@media(max-width:660px){
+  
+#header{
+  padding-top:30px;
+  height:80px;
+}
+
+h1{
+  font-size:30px;
+  width:250px;
+} 
+
+#sub-title{
+  font-size:10px;
+  font-family: serif;
+  font-weight: bold;
+  margin-top: 0;
+  position:absolute;
+  top:0;
+  left:5px;
+}
+
+/* 右上のメニュー */
+#open{
+  position:absolute;
+  top:10px;
+  right:10px;
+  padding:3px 5px;
+}
+
+.fa-bars{
+  font-size:25px;
+  vertical-align: bottom;
+}
+
+#open span{
+  font-size:5px;
+}
+
+#open.hide{
+  display:none;
+}
+
+/* オーバーレイ ナビゲーション */
+.overlay{
+  padding-top: 70px;
+  padding-left:5px;
+  padding-right:5px;
+}
+
+/* クイズ本文 */
+#q-title{
+  margin-top:15px;
+  font-size:14px;
+}
+
+#js-question{
+  font-size:14px;
+  margin-bottom:5px;
+}
+
+.box{
+  width:100px;
+  height:100px;
+  font-size:14px;
+  margin:10px;
+  padding: 40px 3px 0 3px;
+}
+
+#correct-txt{
+  font-size:14px;
+}
+  
+}
+
+@media(max-width:300px){
+  .box{
+    width:90px;
+    height:90px;
+    font-size:12px;
+    line-height: 90px;
+  }
+}
+
+
